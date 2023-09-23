@@ -1,0 +1,67 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    /* Bundler mode */
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    /* Linting */
+    "strict": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "types": [
+    "vite/client",
+    "@types/jest",
+    "@types/node",
+    "jest",
+    "node"
+  ],
+  "include": [
+    "vite.config.*",
+    "src/**/*",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "jest.config.*",
+    "postcss.config.js",
+    "src/**/*.tsx",
+    "src/**/*.js",
+    "src/**/*.vue",
+    "tests/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/**/*.spec.ts"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
