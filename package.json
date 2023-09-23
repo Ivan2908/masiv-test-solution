@@ -1,6 +1,6 @@
 {
   "name": "masiv-test",
-  "private": true,
+  "private": false,
   "version": "0.1.2",
   "homepage": "https://ivan2908.github.io/masiv-test-solution/",
   "type": "module",
