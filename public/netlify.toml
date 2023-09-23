@@ -1,0 +1,26 @@
+[build]
+  publish = "public"
+
+[[headers]]
+  for = "/*"
+  
+  [headers.values]
+    # Permite cualquier origen (esto puede ser ajustado según tus necesidades)
+    Access-Control-Allow-Origin = "*"
+    # Permite ciertos encabezados HTTP en las solicitudes
+    Access-Control-Allow-Headers = "Origin, X-Requested-With, Content-Type, Accept"
+
+[[redirects]]
+    /api/_ https://xkcd.com/:splat 200
+    /_ /index.html 200
+    /\* /index.html 404
+
+[[headers]]
+  # Configura encabezados para funciones Lambda
+  for = "/.netlify/functions/*"
+  
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Headers = "Origin, X-Requested-With, Content-Type, Accept"
+
+# También puedes agregar otras configuraciones específicas de Netlify aquí si es necesario
