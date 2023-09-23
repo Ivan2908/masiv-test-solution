@@ -1,7 +1,8 @@
 {
   "name": "masiv-test",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.2",
+  "homepage": "https://ivan2908.github.io/masiv-test-solution/",
   "type": "module",
   "scripts": {
     "dev": "vite",
