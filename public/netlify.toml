@@ -5,12 +5,21 @@
 
 [[redirects]]
   from = "/api"
-  to = "https://xkcd.co"
-  status = 200
-  force = true # COMMENT: ensure that we always redirect
+  to = "$VITE_APP_BASE_URL"
+  force = true
   headers = {X-From = "Netlify"}
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[redirects]]
+  from = "/en/*"
+  to = "/en/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/de/*"
+  to = "/de/404.html"
+  status = 404
