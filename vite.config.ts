@@ -22,7 +22,6 @@ export default defineConfig({
       }
     }
   },
-  base: '/masiv-test-solution/',
   build: {
     outDir: 'dist'
   }
