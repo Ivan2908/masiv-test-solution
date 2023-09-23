@@ -1,20 +1,20 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es2021: true
   },
   extends: [
     'plugin:vue/vue3-recommended',
     '@vue/typescript/recommended',
     '@vue/eslint-config-standard-with-typescript',
-    'plugin:prettier/recommended',
+    'plugin:prettier/recommended'
   ],
   plugins: ['vue', 'prettier'],
   parserOptions: {
     project: './tsconfig.json',
     sourceType: 'module',
     tsconfigRootDir: __dirname,
-    parser: '@typescript-eslint/parser',
+    parser: '@typescript-eslint/parser'
   },
   rules: {
     '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
@@ -26,9 +26,9 @@ module.exports = {
       'error',
       {
         singleQuote: true,
-        endOfLine: 'auto',
-      },
-    ],
+        endOfLine: 'auto'
+      }
+    ]
   },
-  ignorePatterns: ['postcss.config.js'],
+  ignorePatterns: ['postcss.config.js', '**/*.d.ts', '**/*.d.ts.map']
 };
