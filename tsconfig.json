@@ -43,6 +43,7 @@
     "jest",
     "node"
   ],
+  "outDir": "dist/ts",
   "include": [
     "vite.config.*",
     "src/**/*",
