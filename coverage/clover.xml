@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1695485067868" clover="3.2.0">
-  <project timestamp="1695485067869" name="All files">
+<coverage generated="1695497469822" clover="3.2.0">
+  <project timestamp="1695497469822" name="All files">
     <metrics statements="240" coveredstatements="45" conditionals="43" coveredconditionals="4" methods="43" coveredmethods="7" elements="326" coveredelements="56" complexity="0" loc="240" ncloc="240" packages="5" files="9" classes="9"/>
     <package name="src">
       <metrics statements="52" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="8" coveredmethods="0"/>
-      <file name="App.vue" path="C:\Users\xique\OneDrive\Documents\GitHub\masiv-test-solution\src\App.vue">
+      <file name="App.vue" path="C:\Users\xique\OneDrive\Documents\test-solution\masiv-test-solution\src\App.vue">
         <metrics statements="52" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="8" coveredmethods="0"/>
         <line num="3" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
@@ -62,7 +62,7 @@
     </package>
     <package name="src.components">
       <metrics statements="152" coveredstatements="22" conditionals="28" coveredconditionals="4" methods="24" coveredmethods="4"/>
-      <file name="ComicCard.vue" path="C:\Users\xique\OneDrive\Documents\GitHub\masiv-test-solution\src\components\ComicCard.vue">
+      <file name="ComicCard.vue" path="C:\Users\xique\OneDrive\Documents\test-solution\masiv-test-solution\src\components\ComicCard.vue">
         <metrics statements="49" coveredstatements="0" conditionals="16" coveredconditionals="0" methods="7" coveredmethods="0"/>
         <line num="3" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
@@ -114,7 +114,7 @@
         <line num="159" count="0" type="stmt"/>
         <line num="160" count="0" type="stmt"/>
       </file>
-      <file name="ComicRating.vue" path="C:\Users\xique\OneDrive\Documents\GitHub\masiv-test-solution\src\components\ComicRating.vue">
+      <file name="ComicRating.vue" path="C:\Users\xique\OneDrive\Documents\test-solution\masiv-test-solution\src\components\ComicRating.vue">
         <metrics statements="39" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="0"/>
         <line num="3" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
@@ -156,7 +156,7 @@
         <line num="83" count="0" type="stmt"/>
         <line num="84" count="0" type="stmt"/>
       </file>
-      <file name="GenerateRandomBtn.vue" path="C:\Users\xique\OneDrive\Documents\GitHub\masiv-test-solution\src\components\GenerateRandomBtn.vue">
+      <file name="GenerateRandomBtn.vue" path="C:\Users\xique\OneDrive\Documents\test-solution\masiv-test-solution\src\components\GenerateRandomBtn.vue">
         <metrics statements="22" coveredstatements="22" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
         <line num="3" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
@@ -181,7 +181,7 @@
         <line num="54" count="1" type="stmt"/>
         <line num="55" count="1" type="stmt"/>
       </file>
-      <file name="NotFoundPage.vue" path="C:\Users\xique\OneDrive\Documents\GitHub\masiv-test-solution\src\components\NotFoundPage.vue">
+      <file name="NotFoundPage.vue" path="C:\Users\xique\OneDrive\Documents\test-solution\masiv-test-solution\src\components\NotFoundPage.vue">
         <metrics statements="24" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="3" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
@@ -208,7 +208,7 @@
         <line num="65" count="0" type="stmt"/>
         <line num="66" count="0" type="stmt"/>
       </file>
-      <file name="SpinnerLoading.vue" path="C:\Users\xique\OneDrive\Documents\GitHub\masiv-test-solution\src\components\SpinnerLoading.vue">
+      <file name="SpinnerLoading.vue" path="C:\Users\xique\OneDrive\Documents\test-solution\masiv-test-solution\src\components\SpinnerLoading.vue">
         <metrics statements="18" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="3" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
@@ -232,7 +232,7 @@
     </package>
     <package name="src.composables">
       <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="useRandomFetchComic.ts" path="C:\Users\xique\OneDrive\Documents\GitHub\masiv-test-solution\src\composables\useRandomFetchComic.ts">
+      <file name="useRandomFetchComic.ts" path="C:\Users\xique\OneDrive\Documents\test-solution\masiv-test-solution\src\composables\useRandomFetchComic.ts">
         <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -258,7 +258,7 @@
     </package>
     <package name="src.store">
       <metrics statements="13" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="8" coveredmethods="0"/>
-      <file name="comicStore.ts" path="C:\Users\xique\OneDrive\Documents\GitHub\masiv-test-solution\src\store\comicStore.ts">
+      <file name="comicStore.ts" path="C:\Users\xique\OneDrive\Documents\test-solution\masiv-test-solution\src\store\comicStore.ts">
         <metrics statements="13" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="8" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
@@ -277,7 +277,7 @@
     </package>
     <package name="src.utils">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="utils.ts" path="C:\Users\xique\OneDrive\Documents\GitHub\masiv-test-solution\src\utils\utils.ts">
+      <file name="utils.ts" path="C:\Users\xique\OneDrive\Documents\test-solution\masiv-test-solution\src\utils\utils.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="4" type="stmt"/>

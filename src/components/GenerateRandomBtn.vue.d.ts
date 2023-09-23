@@ -1,17 +1,35 @@
-declare const _default: import("vue").DefineComponent<{
+declare const _default: import('vue').DefineComponent<
+  {
     isVisible: {
-        type: BooleanConstructor;
-        required: true;
+      type: BooleanConstructor;
+      required: true;
     };
-}, {}, unknown, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, {
+  },
+  {},
+  unknown,
+  {},
+  {},
+  import('vue').ComponentOptionsMixin,
+  import('vue').ComponentOptionsMixin,
+  {
     generateRandomComic: () => void;
-}, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
-    isVisible: {
+  },
+  string,
+  import('vue').VNodeProps &
+    import('vue').AllowedComponentProps &
+    import('vue').ComponentCustomProps,
+  Readonly<
+    import('vue').ExtractPropTypes<{
+      isVisible: {
         type: BooleanConstructor;
         required: true;
-    };
-}>> & {
+      };
+    }>
+  > & {
     onGenerateRandomComic?: (() => any) | undefined;
-}, {}, {}>;
+  },
+  {},
+  {}
+>;
 export default _default;
-//# sourceMappingURL=GenerateRandomBtn.vue.d.ts.map
+// # sourceMappingURL=GenerateRandomBtn.vue.d.ts.map

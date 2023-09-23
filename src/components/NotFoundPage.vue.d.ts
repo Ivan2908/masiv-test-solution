@@ -1,25 +1,43 @@
-declare const _default: import("vue").DefineComponent<{
+declare const _default: import('vue').DefineComponent<
+  {
     isLoading: {
-        type: BooleanConstructor;
-        required: true;
+      type: BooleanConstructor;
+      required: true;
     };
     isVisible: {
-        type: BooleanConstructor;
-        required: true;
+      type: BooleanConstructor;
+      required: true;
     };
-}, {}, unknown, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, {
+  },
+  {},
+  unknown,
+  {},
+  {},
+  import('vue').ComponentOptionsMixin,
+  import('vue').ComponentOptionsMixin,
+  {
     generateRandomComic: () => void;
-}, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
-    isLoading: {
+  },
+  string,
+  import('vue').VNodeProps &
+    import('vue').AllowedComponentProps &
+    import('vue').ComponentCustomProps,
+  Readonly<
+    import('vue').ExtractPropTypes<{
+      isLoading: {
         type: BooleanConstructor;
         required: true;
-    };
-    isVisible: {
+      };
+      isVisible: {
         type: BooleanConstructor;
         required: true;
-    };
-}>> & {
+      };
+    }>
+  > & {
     onGenerateRandomComic?: (() => any) | undefined;
-}, {}, {}>;
+  },
+  {},
+  {}
+>;
 export default _default;
-//# sourceMappingURL=NotFoundPage.vue.d.ts.map
+// # sourceMappingURL=NotFoundPage.vue.d.ts.map
