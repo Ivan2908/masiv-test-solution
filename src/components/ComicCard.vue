@@ -40,12 +40,7 @@
           {{ infoComic.title }}
         </h1>
         <small>{{ infoComic.num }}</small>
-        <img
-          class="w-full h-[45rem] mt-3"
-          :src="img"
-          :alt="infoComic.alt"
-          @load="onImageLoad"
-        />
+        <img class="w-full h-[45rem] mt-3" :src="img" :alt="infoComic.alt" />
         <button
           v-if="comicStore.imageLoaded"
           class="absolute top-3 right-3 bg-white rounded-full p-2"
